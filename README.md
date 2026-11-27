@@ -132,8 +132,8 @@ keystore `android/app/rocketsms-release.jks`, поэтому обновлени�
 Таким образом каждый новый APK имеет более высокий `versionCode`, чем предыдущий,
 а версия прошивки видна в UART-логе. Текущая версия клиента отображается в
 `Настройки`; нажатие на неё запускает проверку обновления. После текущего этапа
-прошивка — **v1.0.23 (build 23)**, клиент — **v1.0.28 (build 28)**;
-APK лежит в корне проекта как `RocketSMS-v1.0.28.apk`.
+прошивка — **v1.0.23 (build 23)**, клиент — **v1.0.29 (build 29)**;
+APK лежит в корне проекта как `RocketSMS-v1.0.29.apk`.
 
 Иконка приложения — adaptive icon: глубокий синий фон со светлыми отражениями,
 крупная белая ракета с иллюминатором и 작은 SMS-бабл с тремя точками. Все формы
@@ -193,7 +193,7 @@ APK в репозиторий, обновляет манифест и созда
 
 ```powershell
 adb devices -l
-adb install -r "D:\AIProjects\Pajer\RocketSMS-v1.0.28.apk"
+adb install -r "D:\AIProjects\Pajer\RocketSMS-v1.0.29.apk"
 adb shell am start -n com.pajer.messenger/.MainActivity
 ```
 
